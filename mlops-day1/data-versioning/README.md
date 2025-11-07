@@ -1,8 +1,6 @@
 # Data Versioning
 
 ---
-
-````markdown
 # I – MLOps Foundations 
 **Prerequisites:** Git, Docker, Miniconda/Anaconda installed on your machine
  > - <a href="https://git-scm.com/about"> About Git </a>
@@ -13,7 +11,7 @@ Ce TP vous fera découvrir les **fondations MLOps** : gestion de code, gestion d
 
 ---
 
-## 🔹 Instructions initiales
+## Instructions initiales
 
 1. **Fork** ce repository sur votre compte GitHub.
 2. **Clone** le repository localement :
