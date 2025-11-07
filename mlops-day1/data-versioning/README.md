@@ -1,10 +1,13 @@
-# MLOps_training
+# Data Versioning
 
 ---
 
 ````markdown
-# I – MLOps Foundations – Day 1
-**Pré-requis :** Git, Docker, Miniconda/Anaconda installés sur votre machine
+# I – MLOps Foundations 
+**Prerequisites:** Git, Docker, Miniconda/Anaconda installed on your machine
+ > - <a href="https://git-scm.com/about"> About Git </a>
+ > - <a href="https://docs.docker.com/"> About Docker </a> 
+ > - <a href="https://www.anaconda.com/docs/getting-started/miniconda/main"> About Miniconda/Anaconda </a>  
 
 Ce TP vous fera découvrir les **fondations MLOps** : gestion de code, gestion d’environnement, versioning de données avec DVC.
 
