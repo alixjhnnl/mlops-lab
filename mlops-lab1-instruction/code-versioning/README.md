@@ -234,18 +234,5 @@ git push origin master
 
 Learn about **branches, tags, and merges** to collaborate and manage repositories like a professional **MLOps engineer**: [About Git](https://git-scm.com/about)
 
----
+You can collaborate with different groups of people in different ways simultaneously within the same project
 
-If you want, I can also make a **version “à trous”** of this lab, where all Git commands are blanked out for students to fill. It’s very effective for hands-on practice.
-
-Do you want me to do that next?
-
-ii
-
-## Learn more cobaboration
-
-about branche, tags merge for Collaborate and manage repositories like a professional **MLOps engineer**
- 
-you can collaborate with different groups of people in different ways simultaneously within the same project
-
- [About Git](https://git-scm.com/about)
