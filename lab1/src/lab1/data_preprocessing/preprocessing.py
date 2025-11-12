@@ -12,13 +12,14 @@ Usage Example:
     python data_preprocessing.py --input_data_path data/raw/raw_dataset.csv --output_data_path clean_dataset.csv
 """
 
-import argparse
-import logging
-import os
-import sys
 from pathlib import Path
 from typing import Union
 import pandas as pd
+import numpy as np
+import os
+import sys
+import argparse
+import logging
 
 
 # -------------------------------------------------------------------
@@ -76,7 +77,6 @@ def load_data(input_data_path: Union[str, Path]) -> pd.DataFrame:
     except Exception as e:
         logger.error(f"Error loading data: {e}")
         sys.exit(1)
-    
 
 
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:

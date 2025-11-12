@@ -215,6 +215,7 @@ git commit -m "add pytest configuration and preprocessing unit tests"
 ```bash
 git diff
 git log --oneline --stat
+git log --oneline --graph --decorate --all
 git push origin master
 ```
 
