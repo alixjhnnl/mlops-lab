@@ -1,0 +1,5 @@
+outs:
+- md5: b821ff9c936d32681cf93240498adb5b
+  size: 1973
+  hash: md5
+  path: journal.txt
