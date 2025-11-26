@@ -82,8 +82,13 @@ run-hooks:
 # Run data preprocessing script
 clean-data:
 	@echo "=> Running data preprocessing..."
-	## your code here
+	python lab1/src/lab1/data_preprocessing/preprocessing.py --input_data_path datastores/raw_csv_data/census.csv --output_data_filename clean_census.csv
 	@echo "=> Data preprocessing completed. Clean data saved to $(OUTPUT_FILENAME)."
+
+split-data:
+	@echo "=> Running split data..."
+	python lab1/src/lab1/data_split/split.py --input_data_path datastores/clean_data/clean_census.csv
+	@echo "=> Split data completed. Clean data saved to $(OUTPUT_FILENAME)."
 
 # Run unit tests
 test:
@@ -95,6 +100,6 @@ test:
 # ALL-IN-ONE WORKFLOW
 # ======================================================================
 
-all: install-dependencies install-hooks update-dependencies update-hooks run-hooks clean-data test
+all: clean-data split-data
 	@echo "All tasks completed successfully."
 
